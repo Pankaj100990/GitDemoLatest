@@ -33,6 +33,10 @@ public class LandingPageStepDefinition {
     @Given("User is on GreenCart Landing Page")
     public void user_is_on_green_cart_landing_page() {
         Assert.assertTrue(landingPage.getTileLandingPage().contains("GreenKart"));
+        System.out.println("GitDemo change 1");
+        System.out.println("GitDemo change 2");
+        System.out.println("GitDemo change 3");
+
     }
 
     @When("^user searched with Shortname (.+) and extracted actual name of product$")
