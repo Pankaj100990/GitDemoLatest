@@ -30,6 +30,9 @@ public class OfferPageStepDefinition {
     public void user_searched_for_same_shortname_in_offers_page(String shortName) throws InterruptedException {
         //offer page->enter->grab
         switchToOffersPage();
+        //African time zone
+        System.out.println("GitX change 1");
+
         OffersPage offersPage =testContextSetup.pageObjectManager.OffersPage();
         offersPage.searchItem(shortName);
         //driver.findElement(By.xpath("//input[@type='search']")).sendKeys(shortName);

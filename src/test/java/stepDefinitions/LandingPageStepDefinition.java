@@ -36,6 +36,10 @@ public class LandingPageStepDefinition {
         System.out.println("GitDemo change 1");
         System.out.println("GitDemo change 2");
         System.out.println("GitDemo change 3");
+        //African guy changes
+        System.out.println("GitX change 1");
+        System.out.println("GitX change 2");
+        System.out.println("GitX change 3");
 
     }
 
