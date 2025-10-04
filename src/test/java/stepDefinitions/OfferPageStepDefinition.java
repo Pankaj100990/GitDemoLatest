@@ -32,6 +32,8 @@ public class OfferPageStepDefinition {
         switchToOffersPage();
         //African time zone
         System.out.println("GitX change 1");
+        //Branch merging changes
+        System.out.println("GitDemo change 5 develop branch");
 
         OffersPage offersPage =testContextSetup.pageObjectManager.OffersPage();
         offersPage.searchItem(shortName);

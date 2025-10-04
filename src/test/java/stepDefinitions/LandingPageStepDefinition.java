@@ -40,6 +40,9 @@ public class LandingPageStepDefinition {
         System.out.println("GitX change 1");
         System.out.println("GitX change 2");
         System.out.println("GitX change 3");
+//Branch merging changes
+        System.out.println("GitDemo change 4 develop branch");
+
 
     }
 
